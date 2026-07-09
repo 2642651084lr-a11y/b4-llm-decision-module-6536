@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 项目临时输出目录
+outputs/
+workspace/
+
+# 备份文件
+*.backup.py
+*.backup.*
+*_before_*.py
+
+# 数据文件（大文件不入库）
+data/
+models/
+*.safetensors
+*.bin
+*.pth
+
+# 调试和临时文件
+debug.py
+temp*.py
+*.log
