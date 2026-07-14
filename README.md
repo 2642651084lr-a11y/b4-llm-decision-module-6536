@@ -87,16 +87,6 @@ b4_work/
 ├── configs/
 │   ├── model.yaml                # 模型配置文件（路径、精度、设备等）
 │   └── tools.yaml                # 工具配置文件
-├── data/
-│   ├── messages/                 # 测试用对话样例
-│   │   ├── messages_no_tool.json
-│   │   ├── messages_with_tool.json
-│   │   ├── messages_multi_tool.json
-│   │   └── tools_schema_basic.json
-│   └── test_suite.json           # 进阶任务4 测试集
-├── outputs/                      # 运行输出目录（自动生成）
-│   ├── demo/                     # 演示输出
-│   └── demo_multi/               # 多工具并发演示输出
 └── README.md                     # 本文件
 ```
 ### 3.2 接口边界
